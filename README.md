@@ -13,7 +13,7 @@ Currently supported MIPI cameras are as follows
 | 1    | IMX219 | ![IMX219-83-Stereo-Camera](./image/IMX219-83-Stereo-Camera.jpg) | 800W Pixels | [IMX219](https://www.waveshare.net/shop/IMX219-83-Stereo-Camera.htm) |
 
 
-# Usage
+# Usage Guide
 
 ## Hardware Connection
 
@@ -65,7 +65,7 @@ stereo_mipi_cam.launch.py configures the default output of left and right view s
 
 ## Image Visualization
 
-### Using ROS rqt_image_view
+### ROS rqt_image_view
 
 Here we use the rqt_image_view to visualize the image, make sure to have ROS2 Foxy or Humble version installed on the PC.
 
@@ -82,7 +82,7 @@ Select topic /image_raw/compressed, the image effect is as shown below:
 ![](./image/rqt-result.png)
 
 
-### Using foxglove for Visualization
+### Foxglove
 
 Here we use [foxglove](https://foxglove.dev/studio) for image visualization, rosbridge-suite needs to be installed on RDK.
 
@@ -148,7 +148,9 @@ cam_2:
 0000001.jpg  0000002.jpg  0000003.jpg  0000004.jpg  0000005.jpg
 ```
 
-# Interface Description## Topics
+# Interface Description
+
+## Topics
 
 ### Publish Topics
 
